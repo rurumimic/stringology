@@ -1,0 +1,2 @@
+# stringology
+text algorithms
