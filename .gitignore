@@ -1,24 +1,69 @@
-# Created by https://www.toptal.com/developers/gitignore/api/vim,tags,emacs,linux,macos,windows,powershell,certificates,visualstudiocode,commonlisp,rust,c++
-# Edit at https://www.toptal.com/developers/gitignore?templates=vim,tags,emacs,linux,macos,windows,powershell,certificates,visualstudiocode,commonlisp,rust,c++
+# Created by https://www.toptal.com/developers/gitignore/api/c++,vim,rust,tags,emacs,linux,macos,windows,commonlisp,powershell,certificates,visualstudiocode,c
+# Edit at https://www.toptal.com/developers/gitignore?templates=c++,vim,rust,tags,emacs,linux,macos,windows,commonlisp,powershell,certificates,visualstudiocode,c
 
-### C++ ###
+### C ###
 # Prerequisites
 *.d
 
-# Compiled Object files
-*.slo
-*.lo
+# Object files
 *.o
+*.ko
 *.obj
+*.elf
+
+# Linker output
+*.ilk
+*.map
+*.exp
 
 # Precompiled Headers
 *.gch
 *.pch
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects (inc. Windows DLLs)
 *.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Kernel Module Compile Results
+*.mod*
+*.cmd
+.tmp_versions/
+modules.order
+Module.symvers
+Mkfile.old
+dkms.conf
+
+### C++ ###
+# Prerequisites
+
+# Compiled Object files
+*.slo
+
+# Precompiled Headers
+
+# Compiled Dynamic libraries
 
 # Fortran module files
 *.mod
@@ -26,14 +71,8 @@
 
 # Compiled Static libraries
 *.lai
-*.la
-*.a
-*.lib
 
 # Executables
-*.exe
-*.out
-*.app
 
 ### certificates ###
 *.pem
@@ -180,7 +219,6 @@ Cargo.lock
 **/*.rs.bk
 
 # MSVC Windows builds of rustc generate these, which store debugging information
-*.pdb
 
 ### Tags ###
 # Ignore tags created by etags, ctags, gtags (GNU global) and cscope
@@ -265,5 +303,5 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# End of https://www.toptal.com/developers/gitignore/api/vim,tags,emacs,linux,macos,windows,powershell,certificates,visualstudiocode,commonlisp,rust,c++
+# End of https://www.toptal.com/developers/gitignore/api/c++,vim,rust,tags,emacs,linux,macos,windows,commonlisp,powershell,certificates,visualstudiocode,c
 
